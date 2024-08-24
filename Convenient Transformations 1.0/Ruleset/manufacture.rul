@@ -1,0 +1,25 @@
+soldierTransformation:
+  - name: STR_NEPOTISM
+    forbiddenPreviousTransformations:
+      - STR_BRIDES_TO_THE_QUEEN
+      - STR_SUN_WARRIORS_TRAINING
+      - STR_JUDICAL_EDUCATION
+      - STR_PERSON_OF_CULTURE_TRAINING
+      - STR_NEPOTISM
+  - name: STR_SHAKEUP
+    keepSoldierArmor: true
+    cost: 8680
+    requiredItems: {} 
+  - name: STR_REVOLUTIONARY_TRAINING
+    cost: 2083
+    requiredItems: {}
+  - name: STR_SIMPLETON_TRAINING
+    cost: 673
+    requiredItems:
+      STR_GOVT_CORPSE: 10
+  - name: STR_WEIRDGAL_TRANSFORMATION
+    keepSoldierArmor: true
+  - name: STR_ANG_102
+    keepSoldierArmor: true
+  - name: STR_BODY_SWAP
+    keepSoldierArmor: true
